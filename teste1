@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Exemplo de CSS</title>
+<style>
+  /* Estilos CSS */
+  body {
+    font-family: Arial, sans-serif; /* Define a fonte para o corpo do texto */
+    background-color: #f0f0f0; /* Define a cor de fundo para o corpo da página */
+    margin: 0; /* Remove margem padrão */
+    padding: 0; /* Remove preenchimento padrão */
+  }
+
+  header {
+    background-color: #333; /* Define a cor de fundo para o cabeçalho */
+    color: #fff; /* Define a cor do texto para o cabeçalho */
+    padding: 20px; /* Adiciona preenchimento interno ao cabeçalho */
+    text-align: center; /* Centraliza o texto no cabeçalho */
+  }
+
+  h1 {
+    font-size: 24px; /* Define o tamanho da fonte para os títulos h1 */
+  }
+
+  p {
+    font-size: 16px; /* Define o tamanho da fonte para os parágrafos */
+    line-height: 1.5; /* Define a altura da linha para melhorar a legibilidade */
+    margin-bottom: 20px; /* Adiciona espaço entre os parágrafos */
+  }
+
+  .destaque {
+    color: #ff0000; /* Define a cor vermelha para o texto com a classe "destaque" */
+    font-weight: bold; /* Define o texto com a classe "destaque" em negrito */
+  }
+</style>
+</head>
+<body>
+
+<header>
+  <h1>Meu Site com CSS</h1>
+</header>
+
+<section>
+  <p>Este é um exemplo de site com CSS embutido. Você pode ver as mudanças visuais aplicadas aqui.</p>
+  <p>Por exemplo, este <span class="destaque">texto</span> está em vermelho e em negrito.</p>
+</section>
+
+</body>
+</html>
